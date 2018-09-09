@@ -72,7 +72,7 @@ const sql = require("sqlite");
 client.on('message', message => {
 	var devs = ['314845344313901057'];
   var argresult = message.content.split(` `).slice(1).join(' ');
-    if (!devs.includes(message.author.id)) return;
+    if (!devs.includes(message.author.id)) return; 
     
 if (message.content.startsWith(adminprefix + 'setgame')) {
   client.user.setGame(argresult);
