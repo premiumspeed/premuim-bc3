@@ -110,7 +110,7 @@ client.on("message", message => {
    message.author.sendEmbed(embed)
     
    } 
-   }); 
+   });   
 
 
 // THIS  MUST  BE  THIS  WAY
